@@ -1,0 +1,59 @@
+body {
+  font-size: 12px;
+  height: 100vh;
+  background: url('../images/mountain-climbing.jpg') no-repeat center center;
+  background-size: cover;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  min-width: 900px;
+  height: 90px;
+  margin: 0 auto;
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+.logo-title {
+  margin-left: 12px;
+  font-size: 14px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+}
+nav ul li a {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+nav ul a.active {
+  border-bottom: 2px solid #ce9c31;
+}
+
+
+
+main .hots {
+  position: absolute;
+  right: 0;
+  top: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+main .hots li {
+  margin: 0 12px;
+}
+main .hots img{
+  width: 210px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 9px;
+  cursor: pointer;
+}
